@@ -5,7 +5,10 @@
 		.jumbotron{
 			background-image: url("images/Carasouel Main.jpg")
 		}
-		
+		.iframe-container {
+			text-align: center;
+			width: 100%;
+		}
 	</style>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,12 +18,34 @@
 </head>
 
 <body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="index.html"><img src="images/navbar1.png"></img>&nbsp;</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active"> <a class="nav-link" href="#">Latest News<span class="sr-only">(current)</span></a> </li>
+		      <li class="nav-item active"> <a class="nav-link" href="#">Who we Are&nbsp;</a> </li>
+		      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Trying Out&nbsp; </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+				<a class="dropdown-item" href="manager.html"></a> <a class="dropdown-item" href="manager.html" aria-haspopup="true" aria-expanded="false">Manager&nbsp;</a>
+				<a class="dropdown-item" href="#"></a> <a class="dropdown-item" href="comp.html" aria-haspopup="true" aria-expanded="false">Comp Gaming&nbsp;</a>
+				<a class="dropdown-item" href="#"></a> <a class="dropdown-item" href="#" aria-haspopup="true" aria-expanded="false">Content Creation&nbsp;</a>
+				<a class="dropdown-item" href="#"></a> <a class="dropdown-item" href="#" aria-haspopup="true" aria-expanded="false">Trickshotting&nbsp;</a>
+	          </li>
+		      <li class="nav-item"> <a class="nav-link active" href="merch.html">&nbsp;Merch</a> </li>
+	        </ul>
+		    <form class="form-inline my-2 my-lg-0">
+            </form>
+   		  </div>
+    </nav>
+<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.4.1.js"></script>
 <div class="jumbotron" style="">
-  <h1 class="display-4">Team Exade | Competitive&nbsp;</h1>
-  <p class="lead" style="text-color: white;">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <h1 class="display-4 text-white"><strong>Team Exade | Competitive&nbsp;</strong></h1>
+  <p class="lead text-white" style="text-color: white;"><strong>Team Exade is looking for the best of the best, especially with competitive gaming. Want to join, we want you to join as well!</strong></p>
   <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead"> <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> </p>
+  <p class="text-white"><strong>For Team Exade, we ask if you want to join, that you are active, and have a lot of exprience in competitve gaming.</strong></p>
 </div>
+	<iframe class="iframe-container" src="https://docs.google.com/forms/d/e/1FAIpQLSe4Z2tihi8xPNmeVxkFArxFmGJ9hwHibBn4xGO6BrcKz-5Yzg/viewform?embedded=true" width="640" height="1621" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </body>
 </html>
