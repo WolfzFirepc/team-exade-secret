@@ -57,7 +57,7 @@ function resizeIFrameToFitContent( iFrame ) {
 }
 
 window.addEventListener('DOMContentLoaded', function(e) {
-
+window.frames["iFrameName"].getElementsByTagName("a")[0].target="_blank"
     var iFrame = document.getElementById( 'iFrame1' );
     resizeIFrameToFitContent( iFrame );
 
